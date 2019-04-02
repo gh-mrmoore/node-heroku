@@ -12,10 +12,6 @@
     integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
     crossorigin="anonymous"></script>
 
-    <!--   Google Sign-In   -->
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
-    <meta name="google-signin-client_id" content="71698817141-m2921mudl7eosksnhj0cgtjtsgtm7u97.apps.googleusercontent.com">
-    
     <style>
         *
         {
@@ -31,8 +27,7 @@
         .header
         {
             background-color: #696969;
-            background-image: url("../static/img_home_header.jpg");
-            /* height: 25%; */
+            background-image: linear-gradient(to bottom right, #006400, #008000);
             padding-top: 5%;
             padding-bottom: 5%;
             color: #ffffff;
@@ -81,7 +76,7 @@
 
         .fa-ul
         {
-        color: #4b0082;
+        color: #008000;
         }
 
         li
@@ -97,7 +92,7 @@
         }
         .footer
         {
-            background-color: #4b0082;
+            background-color: #008000;
             color: #ffffff;
             text-align: center;
             border-bottom-right-radius: 15px;
@@ -108,12 +103,12 @@
         {
         padding-left: 5px;
         text-decoration: none;
-        color: #4b0082;
+        color: #008000;
         }
 
         a:hover
         {
-            background-color: #ffd700;
+            background-color: #faf0e6;
         }
 
 
@@ -124,8 +119,6 @@
             .left {order: 2; flex: 100%; padding: 5px;}
             .main {order: 1; flex: 100%; padding: 5px;}
             .right {order: 3; display: none;}
-            .fa-ul {color: #4b0082;}
-            a {padding-left: 5px; text-decoration: none; color: #4b0082;}
         }
     </style>
     <title>Matthew Moore</title>
@@ -137,15 +130,20 @@
     <div class="content">
 
         <div class="left">
-            <h2>about me:</h2>
-            <ul class="fa-ul">
-                <li><span class="fa-li"><i class="fab fa-github"></i></span>
-                    <a target="_blank" href="https://github.com/gh-mrmoore">GitHub</a></li>
-                <li><span class="fa-li"><i class="fab fa-linkedin"></i></span>
-                    <a target="_blank" href="https://www.linkedin.com/in/matthew-moore-22712859/">LinkedIn</a></li>
-            </ul>
+            <h3>site links</h3>
+                <ul class="fa-ul">
+                    <li><span class="fa-li"><i class="fab fa-node-js"></i></span>
+                        <a target="_blank" href="https://safe-brook-59578.herokuapp.com/">Node JS</a>
+                    
+                    <ul class="fa-ul">
+                        <li><span class="fa-li"><i class="fas fa-exclamation-triangle"></i>more coming soon</span></li>
+                    </ul>
+                    </li>
+                </ul>
+
             <hr />
-                <h3>heroku project links:</h3>
+
+            <h3>heroku project links:</h3>
                 <ul class="fa-ul">
                     <li><span class="fa-li"><i class="fab fa-python"></i></span>
                         <a target="_blank" href="https://secure-reef-77717.herokuapp.com/home/">Python/Flask/PostGreSQL Apps</a></li>
@@ -153,28 +151,16 @@
                         <a target="_blank" href="https://salty-sands-29945.herokuapp.com/home/">Python/Django Project</a></li>
                     <li><span class="fa-li"><i class="fab fa-php"></i></span>
                         <a target="_blank" href="https://obscure-fjord-79279.herokuapp.com/">PHP Development</a></li>
-                    <li><span class="fa-li"><i class="fab fa-node-js"></i></span>
-                        <a target="_blank" href="https://safe-brook-59578.herokuapp.com/">Node JS</a></li>
                     <li><span class="fa-li"><i class="fab fa-java"></i></span>
                         <a target="_blank" href="https://protected-badlands-89031.herokuapp.com/" title="Java - Heroku-Generated, Modified by Me">Java</a></li>
                 </ul>
-            <hr />
-                <h3>site links coming soon!</h3>
             <hr />
 
 
         </div>
 
         <div class="main">
-            <p>i have always enjoyed solving problems and 
-            i have always used technology to improve my 
-            efficiency in previous jobs. programming and 
-            development came to me by accident, but it 
-            is no accident that i am here today</p>
-            <p>when presented with the unique opportunity 
-            to change the course of my professional life, 
-            i took it.</p>
-            <img src="img_home_header.jpg" />
+            <p>i will be using this page to explore programming using node js and possibly some react.</p>
         </div>
 
         <div class="right">
